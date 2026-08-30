@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3drops — Product design & engineering for complex financial software</title>
+  <meta name="description" content="3drops is a senior product design and engineering agency for data-heavy B2B and financial software. Treasury, KYC/AML, lending, reconciliation and reporting workflows — from ambiguity to production.">
+  <meta name="theme-color" content="#f4f5f6">
+  <link rel="canonical" href="https://3drops.agency/">
+
+  <meta property="og:title" content="3drops — Product design & engineering for complex financial software">
+  <meta property="og:description" content="We turn complex, data-heavy workflows into software people can understand, trust, and use.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://3drops.agency/">
+  <meta property="og:image" content="https://3drops.agency/assets/img/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://3drops.agency/assets/img/og-cover.jpg">
+
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "3drops",
+    "description": "Senior product design and engineering agency for data-heavy B2B and financial software.",
+    "url": "https://3drops.agency/",
+    "image": "https://3drops.agency/assets/img/og-cover.jpg",
+    "email": "alex@3drops.agency",
+    "areaServed": "Worldwide",
+    "knowsAbout": ["Treasury management software", "KYC/AML workflows", "Business lending platforms", "Reconciliation", "Financial reporting", "Enterprise UX", "Product design", "Full-stack engineering"],
+    "address": [
+      { "@type": "PostalAddress", "addressLocality": "Sydney", "addressCountry": "AU" },
+      { "@type": "PostalAddress", "addressLocality": "Kyiv", "addressCountry": "UA" }
+    ],
+    "founder": [
+      { "@type": "Person", "name": "Alex Nikiforov", "jobTitle": "Product strategy & experience design", "sameAs": "https://www.linkedin.com/in/nkfrv/" },
+      { "@type": "Person", "name": "Andrew Zherdiy", "jobTitle": "Software architecture & engineering", "sameAs": "https://www.linkedin.com/in/andriy-zherdiy" }
+    ],
+    "sameAs": ["https://dribbble.com/3drops", "https://www.linkedin.com/company/3dropsagency/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="3drops home"><span class="brand-drops" aria-hidden="true">●●●</span>3drops</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span>Menu</span><span class="menu-icon" aria-hidden="true"></span>
+    </button>
+    <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#services">Ways to work</a>
+      <a href="#trust">Working with us</a>
+      <a href="#team">Team</a>
+      <a class="nav-cta" href="#contact">Book a 30-min call</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============================= HERO ============================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <p class="eyebrow"><span></span>Senior product design &amp; engineering</p>
+      <h1 id="hero-title">We make complex software feel clear.</h1>
+      <div class="hero-bottom">
+        <p>We design and build the workflows other teams call “too complicated to fix” — treasury, KYC/AML, lending, reconciliation and reporting. Senior people only, from first question to production.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" data-cta="hero-primary" href="#contact">Book a 30-min call <svg class="chevron" aria-hidden="true" viewBox="0 -960 960 960"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
+          <a class="button button-ghost" data-cta="hero-secondary" href="#work">See the work</a>
+        </div>
+      </div>
+
+      <figure class="hero-visual reveal">
+        <div class="shot">
+          <div class="shot-bar" aria-hidden="true"><span></span><span></span><span></span><em>Treasury overview — cash position across six banks</em></div>
+          <img src="assets/img/treasury-dashboard-1600.webp"
+               srcset="assets/img/treasury-dashboard-1600.webp 1600w, assets/img/treasury-dashboard-2400.webp 2400w"
+               sizes="(max-width: 980px) 100vw, 1312px"
+               width="1600" height="900" decoding="async"
+               alt="Treasury overview screen: five KPI tiles showing total cash position, available balance, pending outflows, FX exposure and a forecast 30-day gap; a cashflow inflows-versus-outflows chart; six bank accounts across four currencies; a prioritised alert queue; and a 30-day liquidity forecast with a projected minimum.">
+        </div>
+        <ul class="pins">
+          <li class="pin"><b>01</b><span>Product thinking</span><em>The five numbers a treasurer checks before 9am — nothing else competes for the top of the screen.</em></li>
+          <li class="pin"><b>02</b><span>Clarity</span><em>Alerts ranked by consequence, not by timestamp. A breached floor outranks a ready statement.</em></li>
+          <li class="pin"><b>03</b><span>Engineering</span><em>Six accounts, four currencies, live balances, and a forecast that separates actual from projected.</em></li>
+        </ul>
+      </figure>
+
+      <ul class="domain-strip" aria-label="Domains we work in">
+        <li>Treasury &amp; liquidity</li><li>KYC / AML</li><li>Business lending</li>
+        <li>Reconciliation</li><li>Payment ops</li><li>CRM</li><li>Regulatory reporting</li>
+      </ul>
+    </section>
+
+    <!-- ============================= WORK ============================= -->
+    <section class="work section-rule" id="work" aria-labelledby="work-title">
+      <div class="work-head">
+        <p class="section-label">Selected work</p>
+        <div>
+          <h2 id="work-title">Case studies.</h2>
+          <p class="lead-indent">Real products are messy. These are detailed looks at how we navigate tight constraints, dead ends, and the unpolished iterations it takes to ship.</p>
+        </div>
+      </div>
+
+      <div class="work-list">
+        <article class="case reveal">
+          <div class="case-media" data-swap>
+            <img class="case-img case-img-light"
+                 src="assets/img/treasury-dashboard-1600.webp"
+                 srcset="assets/img/treasury-dashboard-1600.webp 1600w, assets/img/treasury-dashboard-2400.webp 2400w"
+                 sizes="(max-width: 980px) 100vw, 860px"
+                 width="1600" height="900" loading="lazy" decoding="async"
+                 alt="Treasury overview in light mode: KPI tiles, cashflow chart, multi-currency account list, ranked alert queue and a 30-day liquidity forecast.">
+            <img class="case-img case-img-dark"
+                 src="assets/img/treasury-dashboard-dark-1600.webp"
+                 srcset="assets/img/treasury-dashboard-dark-1600.webp 1600w, assets/img/treasury-dashboard-dark-2400.webp 2400w"
+                 sizes="(max-width: 980px) 100vw, 860px"
+                 width="1600" height="900" loading="lazy" decoding="async" alt="" aria-hidden="true">
+            <span class="case-swap-hint" aria-hidden="true">Dark mode</span>
+          </div>
+          <div class="case-body">
+            <p class="case-index">01</p>
+            <h3>Real-time treasury dashboard</h3>
+            <p class="case-context">A finance team tracked its global cash position in a manual spreadsheet, rebuilt every morning from six disparate bank portals across four currencies.</p>
+            <dl class="case-facts">
+              <div><dt>The hard part</dt><dd>Synthesizing dense, multi-currency financial data into a single viewport from zero. We had to cure visual overload so a critical $2M floor breach wouldn't get buried under routine bank statements.</dd></div>
+              <div><dt>What we did</dt><dd>Engineered a comprehensive frontend portal. We anchored five macro-KPIs, built custom dynamic charts separating actual vs. projected liquidity, and implemented a severity-ranked alert system to instantly surface financial risks.</dd></div>
+              <div><dt>Outcome</dt><dd>Transformed treasury operations from reactive monthly audits to a real-time command center, enabling instant remediation of critical breaches while providing clear visibility into 30-day liquidity gaps.</dd></div>
+            </dl>
+            <ul class="case-tags"><li>Treasury</li><li>Product design</li><li>Design system</li><li>Frontend</li></ul>
+            <a class="link-out" data-cta="case-treasury" href="#" target="_blank" rel="noopener noreferrer">
+              Read the case study
+              <svg class="ext" aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14V3Z"/><path d="M5 5h5V3H3v18h18v-7h-2v5H5V5Z"/></svg>
+              <span class="visually-hidden">— opens in Notion, new tab</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="case case-flip reveal">
+          <div class="case-media" data-swap>
+            <img class="case-img case-img-light"
+                 src="assets/img/submitted-application-applicant-1600.webp"
+                 srcset="assets/img/submitted-application-applicant-1600.webp 1600w, assets/img/submitted-application-applicant-2400.webp 2400w"
+                 sizes="(max-width: 980px) 100vw, 860px"
+                 width="1600" height="1138" loading="lazy" decoding="async"
+                 alt="Broker portal application screen: a loan application marked “Submitted to Credit”, with interest rate, amount financed, monthly repayments and LVR on one row, and below them a company risk gauge reading “high risk” beside the factors behind it — ABN age, GST age, adverse records, property ownership and exception to policy.">
+            <img class="case-img case-img-dark"
+                 src="assets/img/submitted-application-quote-1600.webp"
+                 srcset="assets/img/submitted-application-quote-1600.webp 1600w, assets/img/submitted-application-quote-2400.webp 2400w"
+                 sizes="(max-width: 980px) 100vw, 860px"
+                 width="1600" height="1138" loading="lazy" decoding="async" alt="" aria-hidden="true">
+            <span class="case-swap-hint" aria-hidden="true">Amortisation chart</span>
+          </div>
+          <div class="case-body">
+            <p class="case-index">02</p>
+            <h3>Broker portal for SME lending</h3>
+            <p class="case-context">A lender took broker loan applications through email, spreadsheets and phone calls. Nobody could say where a deal sat, what it would price at, or why credit had pushed back — without asking a person.</p>
+            <dl class="case-facts">
+              <div><dt>The hard part</dt><dd>Two audiences, one screen. Brokers want a number they can quote today; credit wants the risk evidence behind it. Split them into separate tools and the deal stalls in the gap between them.</dd></div>
+              <div><dt>What we did</dt><dd>Designed and built it from zero: one application record carrying status, pricing and risk side by side. Company risk is stated as a plain verdict — <em>high risk</em> — with the factors that produced it, and every quote is shown as principal against interest over the full term, not a single monthly figure.</dd></div>
+              <div><dt>Outcome</dt><dd>Independently ranked by the Financial Times among the fastest-growing companies in Asia-Pacific two years running — 8th overall and 1st among fintechs in 2022, 9th overall and 2nd among fintechs in 2023.</dd></div>
+            </dl>
+            <ul class="case-tags"><li>Business lending</li><li>0 → 1 product</li><li>Credit risk UX</li><li>Design system</li><li>Full-stack</li></ul>
+            <a class="link-out" data-cta="case-broker-portal" href="#" target="_blank" rel="noopener noreferrer">
+              Read the case study
+              <svg class="ext" aria-hidden="true" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.4l-8.3 8.3-1.4-1.4L17.6 5H14V3Z"/><path d="M5 5h5V3H3v18h18v-7h-2v5H5V5Z"/></svg>
+              <span class="visually-hidden">— opens in Notion, new tab</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <p class="work-note">More work sits under NDA. On a call we can walk you through it directly — including the parts that did not go to plan.</p>
+    </section>
+
+    <!-- ============================= EXPERTISE ============================= -->
+    <section class="statement section-rule" id="expertise" aria-labelledby="expertise-title">
+      <p class="section-label">Where we add value</p>
+      <div>
+        <h2 id="expertise-title">For products where a generic UX agency is not enough.</h2>
+        <p class="lead-indent">We work at the intersection of product strategy, experience design, and engineering — especially when the domain is dense, the workflows are regulated or money-critical, and the right answer is not obvious from a best-practice list.</p>
+      </div>
+    </section>
+
+    <section class="capabilities" aria-label="Areas of expertise">
+      <article class="capability-card reveal">
+        <span class="index">01</span>
+        <div>
+          <h3>Data-heavy products</h3>
+          <p>Analytical platforms, dashboards, reporting tools and information-dense interfaces built around real decisions — not decorative charts.</p>
+          <p class="capability-deliver"><b>You get</b> a decision inventory, a density and hierarchy model, and charts that survive real data volumes.</p>
+        </div>
+      </article>
+      <article class="capability-card reveal">
+        <span class="index">02</span>
+        <div>
+          <h3>Critical workflows</h3>
+          <p>Complex B2B operations, internal tools, financial journeys and legacy processes that need to become faster, safer and easier to operate.</p>
+          <p class="capability-deliver"><b>You get</b> a current-state map, the failure and edge cases written down, and a target flow tested before it is built.</p>
+        </div>
+      </article>
+      <article class="capability-card reveal">
+        <span class="index">03</span>
+        <div>
+          <h3>New product initiatives</h3>
+          <p>From an ambiguous opportunity to a validated direction and a working vertical slice — without a chain of disconnected suppliers.</p>
+          <p class="capability-deliver"><b>You get</b> a clickable prototype, a technical approach with named risks, and a delivery plan you can take to a board.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============================= SERVICES ============================= -->
+    <section class="services section-rule" id="services" aria-labelledby="services-title">
+      <div class="section-intro">
+        <p class="section-label">Ways to work together</p>
+        <h2 id="services-title">Start with the right-sized commitment.</h2>
+        <p>Engagements are focused, senior-led and easy to evaluate. Scope grows only after the problem and the value are clear — and every stage can be the last one.</p>
+        <p class="intro-note">Investment bands below are indicative and confirmed in writing before anything starts. No discovery retainer, no minimum term.</p>
+      </div>
+      <div class="service-list">
+        <article class="service-item">
+          <div class="service-heading"><span>01</span><h3>Define</h3></div>
+          <div class="service-body">
+            <h4>Complex Workflow Sprint</h4>
+            <p>A focused engagement to frame one critical workflow before committing to full delivery.</p>
+            <ul>
+              <li>Current-state and opportunity mapping</li>
+              <li>Target experience and interactive prototype</li>
+              <li>Technical approach, risks, and delivery plan</li>
+            </ul>
+            <p class="service-need"><b>From you:</b> access to 3–5 people who do the work, and one decision-maker at two checkpoints.</p>
+          </div>
+          <p class="service-meta"><b class="price">from A$18k</b>Fixed price<br>Typically 2–3 weeks<br><span class="meta-exit">Ends with a decision, not a dependency</span></p>
+        </article>
+        <article class="service-item">
+          <div class="service-heading"><span>02</span><h3>Build</h3></div>
+          <div class="service-body">
+            <h4>Critical Workflow Delivery</h4>
+            <p>Design and engineering for a production-ready vertical slice, shaped around one valuable outcome.</p>
+            <ul>
+              <li>Product design and technical architecture</li>
+              <li>Frontend and full-stack implementation</li>
+              <li>Quality assurance and release readiness</li>
+            </ul>
+            <p class="service-need"><b>From you:</b> a product owner for weekly decisions, and environment access on day one.</p>
+          </div>
+          <p class="service-meta"><b class="price">from A$45k</b>Milestone-based<br>Typically 4–8 weeks<br><span class="meta-exit">Your code, your repo, from commit one</span></p>
+        </article>
+        <article class="service-item">
+          <div class="service-heading"><span>03</span><h3>Evolve</h3></div>
+          <div class="service-body">
+            <h4>Senior Product Partner</h4>
+            <p>Ongoing product and engineering capacity for teams that need senior ownership without building a full department.</p>
+            <ul>
+              <li>One active priority at a time</li>
+              <li>Regular decision and delivery cadence</li>
+              <li>Specialists added when the work requires them</li>
+            </ul>
+            <p class="service-need"><b>From you:</b> a standing slot in your planning rhythm. That is genuinely it.</p>
+          </div>
+          <p class="service-meta"><b class="price">from A$14k / mo</b>Monthly engagement<br>30 days notice, either side<br><span class="meta-exit">Limited availability</span></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================= PROOF ============================= -->
+    <section class="proof" aria-labelledby="proof-title">
+      <p class="section-label muted-light">Why 3drops</p>
+      <h2 id="proof-title">Small by design.<br>Senior by default.</h2>
+      <div class="proof-grid">
+        <div><strong>No juniors on your account</strong><p>Nobody touching your project has under ten years in the field. There is no bench to keep busy and no account manager between you and the work.</p></div>
+        <div><strong>Product to production</strong><p>The people shaping the problem are the same people accountable for what gets designed, built and released. Nothing gets handed over a wall.</p></div>
+        <div><strong>Deep domain comfort</strong><p>Financial systems, banking, business lending, KYC/AML, enterprise platforms, logistics, CRM and operational software. You will not spend the first month teaching us the vocabulary.</p></div>
+        <div><strong>Flexible delivery depth</strong><p>A senior core team, extended with trusted QA, frontend and design specialists when a project needs more capacity — named to you, under the same agreement.</p></div>
+      </div>
+    </section>
+
+    <!-- ============================= TRUST ============================= -->
+    <section class="trust section-rule" id="trust" aria-labelledby="trust-title">
+      <div class="section-intro">
+        <p class="section-label">Working with us</p>
+        <h2 id="trust-title">The questions your risk committee will ask.</h2>
+        <p>You are handing an outside team access to financial workflows. Here are our answers before you have to chase them.</p>
+      </div>
+
+      <div class="trust-grid">
+        <article class="trust-item">
+          <h3>IP and ownership</h3>
+          <p>All design files, source code and documentation are yours, assigned on payment of each milestone. Work lands in your repository and your workspace from day one — not ours.</p>
+        </article>
+        <article class="trust-item">
+          <h3>Data handling</h3>
+          <p>We design and build against synthetic or anonymised data by default. If a task genuinely needs production data, we agree it in writing first, scoped and time-boxed.</p>
+        </article>
+        <article class="trust-item">
+          <h3>Access and accounts</h3>
+          <p>Named individual accounts through your SSO, least-privilege by default, MFA everywhere, company-managed encrypted devices. Access is revoked the day an engagement ends.</p>
+        </article>
+        <article class="trust-item">
+          <h3>Confidentiality</h3>
+          <p>Mutual NDA signed before the first working session, at your paper or ours. Any specialist we bring in is named to you and signs the same terms.</p>
+        </article>
+        <article class="trust-item">
+          <h3>Where we sit</h3>
+          <p>Sydney (AU) and Kyiv (UA). In practice that is coverage across APAC and European hours, with a written continuity plan: work in your cloud, daily pushes, and no single-person dependency on any deliverable.</p>
+        </article>
+        <article class="trust-item">
+          <h3>Contracting</h3>
+          <p>Fixed-price for Define, milestone-based for Build, monthly for Evolve. <p><span class="meta-exit">No auto-renewal and no exit fees.</span></p></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================= TEAM ============================= -->
+    <section class="team section-rule" id="team" aria-labelledby="team-title">
+      <div class="section-intro">
+        <p class="section-label">The core team</p>
+        <h2 id="team-title">The work stays close to the people you hire.</h2>
+        <p>These are the people in your calls and in your repository, week to week. No account layer, no substitutions after signing.</p>
+      </div>
+      <div class="people">
+        <article class="person">
+          <div class="portrait is-fallback" data-initials="AN">
+          </div>
+          <div>
+            <h3>Alex N.</h3>
+            <p class="role">Product strategy &amp; experience design · Kyiv, UA · R&D</p>
+            <p>Product and UX leader who has shaped enterprise finance systems, portfolio tools, KYC/AML workflows, CRM and data-heavy reporting products. Runs the Define stage and stays on through delivery.</p>
+            <a class="link-chevron" href="https://www.linkedin.com/in/nkfrv/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="chevron" aria-hidden="true" viewBox="0 -960 960 960"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
+          </div>
+        </article>
+
+        <article class="person">
+          <div class="portrait is-fallback" data-initials="AZ">
+          </div>
+          <div>
+            <h3>Andrew Z.</h3>
+            <p class="role">Software architecture &amp; engineering · Kyiv, UA · R&D</p>
+            <p>Lead software engineer with 19+ years in IT across banking, enterprise platforms and logistics, plus modern frontend and full-stack architecture. Owns technical approach and release readiness.</p>
+            <a class="link-chevron" href="https://www.linkedin.com/in/andriy-zherdiy" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="chevron" aria-hidden="true" viewBox="0 -960 960 960"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
+          </div>
+        </article>
+
+        <article class="person person-advisor">
+          <div class="portrait is-fallback" data-initials="DV">
+          </div>
+          <div>
+            <h3>David V.</h3>
+            <p class="role">Internal strategy advisor · Sydney, AU · HQ</p>
+            <p>Recognized finance CEO specializing in regulatory risk and lending. David guides our overarching agency strategy and serves as an expert sounding board for our product and engineering leads. He operates entirely behind the scenes, ensuring our financial product vision is stress-tested without ever touching client engagements or data.</p>
+            <a class="link-chevron" href="#" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="chevron" aria-hidden="true" viewBox="0 -960 960 960"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
+          </div>
+        </article>
+
+        <aside class="network-note">
+          <strong>Extended when needed</strong>
+          <p>For broader delivery we bring in trusted senior QA, frontend engineering and product design specialists — named to you in advance and covered by the same NDA. You get the right team for the work, not unnecessary overhead.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================= FIT ============================= -->
+    <section class="fit section-rule" aria-labelledby="fit-title">
+      <p class="section-label">A good fit</p>
+      <div>
+        <h2 id="fit-title">You have a valuable problem hiding inside a complicated system.</h2>
+        <ol class="fit-yes">
+          <li><span>01</span>Your team understands the domain, but the workflow stays hard to define or hard to use.</li>
+          <li><span>02</span>You need senior product and technical judgement — not just more production capacity.</li>
+          <li><span>03</span>You want to validate the direction before funding a large, open-ended build.</li>
+          <li><span>04</span>You need a focused partner who can move from ambiguity to working software.</li>
+        </ol>
+        <div class="fit-no">
+          <h3>Not a fit if…</h3>
+          <ul>
+            <li>You need a marketing site, a brand refresh, or a landing page.</li>
+            <li>You want extra hands to execute tickets that are already fully specified.</li>
+            <li>The decision-maker cannot join two short sessions during a Define sprint.</li>
+            <li>You need a team of ten next week — we stay small on purpose.</li>
+          </ul>
+          <p>If that is your situation, say so on the call and we will point you somewhere better. It costs us both less.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= FAQ ============================= -->
+    <section class="faq section-rule" id="faq" aria-labelledby="faq-title">
+      <div class="section-intro">
+        <p class="section-label">Before you ask</p>
+        <h2 id="faq-title">Straight answers.</h2>
+        <p>The eight questions we get on almost every first call.</p>
+      </div>
+      <div class="faq-list">
+        <details class="qa">
+          <summary><span>What does it actually cost?</span></summary>
+          <div class="qa-body"><p>A Define sprint starts at A$18k fixed. A Build engagement typically lands between A$45k and A$120k depending on the slice. Evolve starts at A$14k per month. You get a written number before anything begins, and we would rather tell you on the first call that your budget does not fit than discover it in week three.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span>How fast can you start?</span></summary>
+          <div class="qa-body"><p>Because the team is small, we run a limited number of engagements at once. If we cannot start when you need us, we will say so immediately. <b>A next Define slot opens in two weeks.</b></p></div>
+        </details>
+        <details class="qa">
+          <summary><span>We already have designers and engineers. Why you?</span></summary>
+          <div class="qa-body"><p>Then you likely do not need capacity — you need a decision. We are usually brought in when a workflow has been redesigned twice and still is not right, or when nobody senior can hold the product and the technical constraints in one head at the same time. We work alongside in-house teams, and we hand over documented.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span>What happens if we stop after Define?</span></summary>
+          <div class="qa-body"><p>You keep everything: the maps, the prototype, the technical approach, the delivery plan and the risk list — in a form another team can pick up. Roughly the point of the sprint is to make that choice cheaply. No exit fee, no clawback.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span>Which stack do you work in?</span></summary>
+          <div class="qa-body"><p>Modern frontend (React and TypeScript) with full-stack delivery, and Figma for design. We are comfortable inside existing codebases, including older ones, and we will not propose a rewrite because it would be more pleasant for us.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span>Will you touch production data or PII?</span></summary>
+          <div class="qa-body"><p>Not by default. We work with synthetic or anonymised data, in your environment, under least-privilege access. Anything beyond that is agreed in writing, scoped and time-boxed. See <a href="#trust">Working with us</a> for the full position.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span>Who owns the IP?</span></summary>
+          <div class="qa-body"><p>You do. Design files, source code and documentation are assigned to you on payment of each milestone, and they live in your repository and workspace from the first day rather than being handed over at the end.</p></div>
+        </details>
+        <details class="qa">
+          <summary><span>Can we talk to a reference?</span></summary>
+          <div class="qa-body"><p>Yes, on request once we know your context, so we can connect you with someone who solved a comparable problem rather than whoever is easiest to reach.</p></div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============================= CONTACT ============================= -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p class="section-label muted-light">Have something difficult in mind?</p>
+      <h2 id="contact-title">Let’s make it clear.</h2>
+      <div class="contact-grid">
+        <div class="contact-copy">
+          <p>Book a 30-minute workflow review. It is a working session, not a sales call: bring one workflow that is not behaving and we will tell you what we would look at first.</p>
+          <ul class="contact-bullets">
+            <li><b>01</b>The workflow that is not working, in one paragraph</li>
+            <li><b>02</b>What it costs you today — time, errors, risk, or revenue</li>
+            <li><b>03</b>Why it matters now, and who has to approve it</li>
+          </ul>
+          <p class="contact-sla"><span class="dot" aria-hidden="true"></span>We reply within one business day. If we are not the right fit, we will say so and suggest who is.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-light" data-cta="contact-book" href="https://cal.com/3drops" target="_blank" rel="noopener noreferrer">Book a 30-min call <svg class="chevron" aria-hidden="true" viewBox="0 -960 960 960"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
+          <a class="button button-outline-light" data-cta="contact-email" href="mailto:alex@3drops.agency?subject=Project%20inquiry%20for%203drops">Or email us instead</a>
+          <p class="contact-direct">alex@3drops.agency<br><span>Sydney, AU · Kyiv, UA</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-cta" id="sticky-cta" aria-hidden="true">
+    <p><b>Complex workflow to fix?</b><span>30 min, no pitch</span></p>
+    <a class="button button-primary" data-cta="sticky" href="#contact" tabindex="-1">Book a call</a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a class="brand" href="#top"><span class="brand-drops" aria-hidden="true">●●●</span>3drops</a>
+      <p>Product design &amp; engineering for complex financial software<br>Sydney, AU · Kyiv, UA · Working globally</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="#work">Work</a><a href="#services">Ways to work</a><a href="#trust">Working with us</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="footer-nav">
+      <a href="https://dribbble.com/3drops" target="_blank" rel="noopener noreferrer">Dribbble</a>
+      <a href="https://www.linkedin.com/company/3dropsagency/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:alex@3drops.agency">alex@3drops.agency</a>
+    </div>
+    <div class="footer-legal">
+      <p>© <span id="current-year">2026</span> 3drops.</p>
+      <p>No trackers beyond privacy-friendly, cookie-free analytics.</p>
+    </div>
+  </footer>
+</body>
+</html>

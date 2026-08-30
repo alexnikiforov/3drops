@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3drops.agency/sitemap.xml
